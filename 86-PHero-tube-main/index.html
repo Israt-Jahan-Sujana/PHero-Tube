@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHero Tube</title>
+    <link rel="stylesheet" href="index.js">
+    <link rel="shortcut icon" href="./Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    
+    <header>
+        <!--nav-->
+        <div class="navbar bg-base-100 px-12 py-12">
+
+            <div class="navbar-start">
+                <img src="./Logo.png" alt="">
+            </div>
+
+            <div class="navbar-center" id="SortBtn">
+                <button class="btn bg-[rgba(37, 37, 37, 0.20)] text-[#252525] text-lg px-8
+                ">Sort by View</button>
+            </div>
+
+            <div class="navbar-end">
+              <a class="btn bg-[#FF1F3D] text-white" href="./blog.html">Blog</a>
+            </div>
+
+          </div>
+    </header>
+    
+    <!--category button-->
+    <div class="tab-container w-full ">
+        <div class="font-bold tabs flex justify-center p-5 text-center m-auto cursor-pointer" id="tabContainer">
+        </div>
+    </div>
+
+    <!--videos-->
+    <div id="card-container" class="grid grid-cols-2 gap-4 ">
+        
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+</body>
+</html>
